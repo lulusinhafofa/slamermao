@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Cliente</title>
+    
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffe4e1; /* Fundo rosa claro */
+            color: #333;
+            padding: 20px;
+            text-align: center; /* Centraliza o texto */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh; /* Faz o conteúdo ocupar a altura toda */
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #ffb6c1; /* Rosa claro */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #fff;
+            text-shadow: 2px 2px #ff69b4; /* Sombra de texto rosa pink */
+        }
+
+        /* Seções do Main */
+        main {
+            background-color: #fff0f5; /* Fundo rosa claro mais suave */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 600px; /* Limita a largura do conteúdo */
+        }
+
+        main section {
+            margin-bottom: 20px;
+        }
+
+        main h2 {
+            font-size: 2.5em;
+            color: #ff1493; /* Rosa pink */
+        }
+
+        main p {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        /* Botão de Home */
+        .settings-option {
+            background-color: #ff69b4; /* Rosa pink */
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .settings-option:hover {
+            background-color: #ff1493; /* Rosa mais escuro ao passar o mouse */
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #ffb6c1;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 1em;
+            color: #fff;
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Nossa Página</h1>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Esta é a seção inicial da nossa página. Aqui você encontrará as últimas notícias e atualizações.</p>
+        </section>
+        
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>Saiba mais sobre nossa empresa e nossa missão.</p>
+        </section>
+        
+        <section id="services">
+            <h2>Serviços</h2>
+            <p>Confira os serviços que oferecemos aos nossos clientes.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco através do e-mail: contato@exemplo.com</p>
+        </section>
+    </main>
+    
+    <div class="settings-option" onclick="window.location.href='index.html'">Home</div>
+    
+    <footer>
+        <p>&copy; 2024 Nossa Empresa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

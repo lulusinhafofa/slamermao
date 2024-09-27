@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações - Neto Virtual</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .settings-container {
+            width: 100%;
+            max-width: 400px;
+            background-color: #000000;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: white;
+            box-sizing: border-box;
+        }
+
+
+        .settings-option {
+            width: 100%;
+            background-color: transparent;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 1px solid #ffffff33;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .settings-option:last-child {
+            border-bottom: none;
+        }
+
+        .settings-option:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="settings-container">
+        <div class="settings-option" onclick="window.location.href='index.html'">Home</div>
+        <div class="settings-option" onclick="window.location.href='cliente.html'">Cliente</div>
+        <div class="settings-option" onclick="window.location.href='serviços.html'">Serviços</div>
+        <div class="settings-option" onclick="window.location.href='Blog.html'">Blog</div>
+        <div class="settings-option" onclick="window.location.href='quemsomos.html'">Quem somos</div>
+        <div class="settings-option" onclick="window.location.href='contato.html'">Contato</div>
+    </div>
+</body>
+</html>
